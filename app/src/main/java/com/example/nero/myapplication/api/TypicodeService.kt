@@ -8,11 +8,6 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
-/** TypicodeService інтерфейс, для виконання запитів до сервреру.
- * Для кожного сайту свій API повинен бути.
- * Тому реалізація усіх запитів, до різних таблиць повинна бути у цьому файлі
- */
-
 interface TypicodeService {
     @GET("posts/")
     fun getAllPosts(): Call<List<Post>>
