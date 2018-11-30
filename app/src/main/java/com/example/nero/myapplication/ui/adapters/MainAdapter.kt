@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import com.example.nero.meteo.api.model.Post
+import com.example.nero.myapplication.api.models.Post
 import com.example.nero.myapplication.R
 
 class MainAdapter(private val myPostList: List<Post>?) : RecyclerView.Adapter<MainAdapter.MainViewHolder>() {

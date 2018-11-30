@@ -1,7 +1,7 @@
-package com.example.nero.meteo.api
+package com.example.nero.myapplication.api
 
-import com.example.nero.meteo.api.model.Comment
-import com.example.nero.meteo.api.model.Post
+import com.example.nero.myapplication.api.models.Comment
+import com.example.nero.myapplication.api.models.Post
 import com.example.nero.meteo.api.model.User
 import retrofit2.Call
 import retrofit2.http.GET

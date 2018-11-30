@@ -1,5 +1,7 @@
 package com.example.nero.meteo.api.model
 
+import com.example.nero.myapplication.api.models.Address
+import com.example.nero.myapplication.api.models.Company
 import com.google.gson.annotations.SerializedName
 
 data class User(

@@ -1,4 +1,4 @@
-package com.example.nero.meteo.api.model
+package com.example.nero.myapplication.api.models
 
 import com.google.gson.annotations.SerializedName
 
